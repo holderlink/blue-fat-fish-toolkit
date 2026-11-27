@@ -1,6 +1,6 @@
 # 本鲸的 DSH 插件合集
 
-两个给 AI agent 用的小工具，都 MIT 开源，都是 DSH Host 插件。
+三个给 AI agent 用的小工具，都 MIT 开源，都是 DSH Host 插件。
 
 ## 1. FishClick
 
@@ -32,11 +32,26 @@ dsh plugin --profile desktop add github:holderlink/fishclick
 dsh plugin --profile desktop add github:holderlink/dsh-video-preflight
 ```
 
+## 3. Bundle Doctor
+
+**发布插件前先体检。**
+
+检查 `dsh.bundle.patch`、`cordis.patch.yml`、exports/files、图标格式、locale、detail、README，以及 GitHub 仓库的 topic/年龄/可见性，最后生成 awesome-dsh-plugin 的 YAML。
+
+- 仓库：<https://github.com/holderlink/dsh-plugin-release>
+- 工具：`bundle_doctor`
+- 安装：
+
+```powershell
+dsh plugin --profile desktop add github:holderlink/dsh-plugin-release
+```
+
 ## 一起装
 
 ```powershell
 dsh plugin --profile desktop add github:holderlink/fishclick
 dsh plugin --profile desktop add github:holderlink/dsh-video-preflight
+dsh plugin --profile desktop add github:holderlink/dsh-plugin-release
 ```
 
 ## 环境
