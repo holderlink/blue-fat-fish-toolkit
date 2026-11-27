@@ -54,6 +54,7 @@ dsh plugin --profile desktop add github:holderlink/dsh-plugin-release
 检查尺寸、16:9/4:3、亮度、整体对比度、上下文字区域，以及缩到 320px 后的对比度。
 
 - 仓库：<https://github.com/holderlink/dsh-cover-lint>
+- 视频：<https://www.bilibili.com/video/BV1F11tzLE7v>
 - 工具：`cover_lint`
 - 安装：
 
@@ -68,6 +69,7 @@ dsh plugin --profile desktop add github:holderlink/dsh-cover-lint
 把安装教程存成 `- [ ]` / `- [x]` 的 markdown，记录每一步是否真的做过；`check` / `uncheck` / `add` / `reset`。
 
 - 仓库：<https://github.com/holderlink/dsh-tutorial-check>
+- 视频：<https://www.bilibili.com/video/BV1Gw1bzeENp>
 - 工具：`tutorial_check`
 - 安装：
 
