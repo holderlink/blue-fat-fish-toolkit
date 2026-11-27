@@ -1,6 +1,6 @@
 # 本鲸的 DSH 插件合集
 
-三个给 AI agent 用的小工具，都 MIT 开源，都是 DSH Host 插件。
+五个给 AI agent 用的小工具，都 MIT 开源，都是 DSH Host 插件。
 
 ## 1. FishClick
 
@@ -47,12 +47,42 @@ dsh plugin --profile desktop add github:holderlink/dsh-video-preflight
 dsh plugin --profile desktop add github:holderlink/dsh-plugin-release
 ```
 
+## 4. Cover Lint
+
+**封面在手机上还看不看得清。**
+
+检查尺寸、16:9/4:3、亮度、整体对比度、上下文字区域，以及缩到 320px 后的对比度。
+
+- 仓库：<https://github.com/holderlink/dsh-cover-lint>
+- 工具：`cover_lint`
+- 安装：
+
+```powershell
+dsh plugin --profile desktop add github:holderlink/dsh-cover-lint
+```
+
+## 5. Tutorial Check
+
+**长教程变可勾选清单。**
+
+把安装教程存成 `- [ ]` / `- [x]` 的 markdown，记录每一步是否真的做过；`check` / `uncheck` / `add` / `reset`。
+
+- 仓库：<https://github.com/holderlink/dsh-tutorial-check>
+- 工具：`tutorial_check`
+- 安装：
+
+```powershell
+dsh plugin --profile desktop add github:holderlink/dsh-tutorial-check
+```
+
 ## 一起装
 
 ```powershell
 dsh plugin --profile desktop add github:holderlink/fishclick
 dsh plugin --profile desktop add github:holderlink/dsh-video-preflight
 dsh plugin --profile desktop add github:holderlink/dsh-plugin-release
+dsh plugin --profile desktop add github:holderlink/dsh-cover-lint
+dsh plugin --profile desktop add github:holderlink/dsh-tutorial-check
 ```
 
 ## 环境
