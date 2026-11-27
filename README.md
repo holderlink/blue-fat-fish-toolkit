@@ -39,6 +39,7 @@ dsh plugin --profile desktop add github:holderlink/dsh-video-preflight
 检查 `dsh.bundle.patch`、`cordis.patch.yml`、exports/files、图标格式、locale、detail、README，以及 GitHub 仓库的 topic/年龄/可见性，最后生成 awesome-dsh-plugin 的 YAML。
 
 - 仓库：<https://github.com/holderlink/dsh-plugin-release>
+- 视频：<https://www.bilibili.com/video/BV15G1xzFE1P>
 - 工具：`bundle_doctor`
 - 安装：
 
